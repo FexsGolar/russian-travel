@@ -1,0 +1,11 @@
+.cover__item {
+    min-width: 1184px;
+    min-height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    text-decoration: none;
+}

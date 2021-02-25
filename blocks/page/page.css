@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../../vendor/Inter-Regular.woff');
+}
+
+@font-face {
+    src: url('../../vendor/Inter-Bold.woff');
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+.page {
+    min-width: 320px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: auto;
+    background-color: #2A2C2F;
+    font-family: 'Inter', Arial, sans-serif;
+}
