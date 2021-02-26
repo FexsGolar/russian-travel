@@ -1,6 +1,7 @@
 .place {
     display: grid;
     grid-template-columns: 460px 1fr;
+    grid-template-rows: auto auto;
     gap: 48px 40px;
     margin-top: 80px;
 }
@@ -21,11 +22,18 @@
         grid-template-columns: 340px 1fr;
         grid-gap: 48px 28px;
     }
+    .place:first-of-type {
+        padding-top: 88px;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .place {
         grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
         grid-gap: 32px;
+    }
+    .place:first-of-type {
+        padding-top: 64px;
     }
 }

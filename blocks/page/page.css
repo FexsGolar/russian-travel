@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'Inter';
-    src: url('../../vendor/Inter-Regular.woff');
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    src: url('../../fonts/Inter-Regular.woff');
 }
 
 @font-face {
-    src: url('../../vendor/Inter-Bold.woff');
-    font-family: 'Inter';
+    src: url('../../fonts/Inter-Bold.woff');
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
@@ -16,4 +16,5 @@
     padding: auto;
     background-color: #2A2C2F;
     font-family: 'Inter', Arial, sans-serif;
+    box-sizing: border-box;
 }

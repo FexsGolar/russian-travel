@@ -8,3 +8,9 @@
     margin: 33px 0 0;
     color: white;
 }
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .intro__list {
+        margin-top: 34px;
+    }
+}
