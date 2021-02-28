@@ -13,19 +13,17 @@
     <header class="header">
         <img src="./images/header-logo.svg" alt="Россия" class="header__logo">
         <div class="header__container">
-            <a href="#" target="_blank" rel="noopener noreferrer" class="header__lang-link header__lang-link_active">Ru</a>
-            <a href="#" target="_blank" rel="noopener noreferrer" class="header__lang-link">En</a>
-            <!--             <div class="header__lang-link">Ru</div>
-            <div class="header__lang-link">En</div> -->
+            <a href="#" target="_self" rel="noopener noreferrer" class="header__lang-link header__lang-link_active">Ru</a>
+            <a href="#" target="_self" rel="noopener noreferrer" class="header__lang-link">En</a>
         </div>
     </header>
     <main>
         <section class="lead">
-            <h1 class="lead__title">Путешествия по России</h1>
+            <h1 class="lead__title">Путешествия по&nbsp;России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
             <div class="lead__container">
                 <img src="./images/lead-polka.png" alt="Полка" class="lead__image">
-                <div class="lead__caption">ваша полка — верхняя</div>
+                <p class="lead__caption">ваша полка — верхняя</p>
             </div>
         </section>
 
@@ -62,7 +60,7 @@
             <article class="place">
                 <h2 class="place__title">Куршская коса</h2>
                 <div class="place__website">
-                    <span class="place__url-heading">URL</span>
+                    <span class="place__url-heading">url</span>
                     <a href="http://park-kosa.ru" target="_blank" rel="noopener noreferrer" class="place__link">park-kosa.ru</a>
 
                 </div>
@@ -77,7 +75,7 @@
             <article class="place">
                 <h2 class="place__title">Кольский</h2>
                 <div class="place__website">
-                    <span class="place__url-heading">URL</span>
+                    <span class="place__url-heading">url</span>
                     <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" rel="noopener noreferrer" class="place__link">National Geographic</a>
 
                 </div>
@@ -91,7 +89,7 @@
             <article class="place">
                 <h2 class="place__title">Алтай</h2>
                 <div class="place__website">
-                    <span class="place__url-heading">URL</span>
+                    <span class="place__url-heading">url</span>
                     <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank" rel="noopener noreferrer" class="place__link">Facebook</a>
 
                 </div>
@@ -106,7 +104,7 @@
             <article class="place">
                 <h2 class="place__title">Зимний Байкал</h2>
                 <div class="place__website">
-                    <span class="place__url-heading">URL</span>
+                    <span class="place__url-heading">url</span>
                     <a href="https://vk.com/baikalmile" target="_blank" rel="noopener noreferrer" class="place__link">https://vk.com/baikalmile</a>
 
                 </div>
@@ -120,7 +118,7 @@
             <article class="place">
                 <h2 class="place__title">Карелия</h2>
                 <div class="place__website">
-                    <span class="place__url-heading">URL</span>
+                    <span class="place__url-heading">url</span>
                     <a href="http://vodlozero.ru" target="_blank" rel="noopener noreferrer" class="place__link">http://vodlozero.ru/</a>
 
                 </div>
@@ -135,19 +133,23 @@
 
         <section class="cover">
             <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" rel="noopener noreferrer" class="cover__item">
-                <h2 class="cover__title">До Байкала «на собаках» </h2>
+                <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
                 <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
             </a>
         </section>
     </main>
 
     <footer class="footer">
-        <a href="https://yandex.ru/maps" target="_blank" rel="noopener noreferrer" class="footer__link">Карты</a>
-        <a href="https://yandex.ru/pogoda" target="_blank" rel="noopener noreferrer" class="footer__link">Погода</a>
-        <a href="https://rasp.yandex.ru" target="_blank" rel="noopener noreferrer" class="footer__link">Расписание</a>
-        <a href="https://calendar.yandex.ru" target="_blank" rel="noopener noreferrer" class="footer__link">Календарь</a>
-        <a href="https://travel.yandex.ru" target="_blank" rel="noopener noreferrer" class="footer__link">Путешествия</a>
-        <p class="footer__copyright">&copy; 2020. Николай Сальников</p>
+        <nav>
+            <ul class="footer__list">
+                <li class="footer__list-item"><a href="https://yandex.ru/maps" target="_blank" rel="noopener noreferrer" class="footer__link">Карты</a></li>
+                <li class="footer__list-item"><a href="https://yandex.ru/pogoda" target="_blank" rel="noopener noreferrer" class="footer__link">Погода</a></li>
+                <li class="footer__list-item"><a href="https://rasp.yandex.ru" target="_blank" rel="noopener noreferrer" class="footer__link">Расписание</a></li>
+                <li class="footer__list-item"><a href="https://calendar.yandex.ru" target="_blank" rel="noopener noreferrer" class="footer__link">Календарь</a></li>
+                <li class="footer__list-item"><a href="https://travel.yandex.ru" target="_blank" rel="noopener noreferrer" class="footer__link">Путешествия</a></li>
+            </ul>
+        </nav>
+        <p class="footer__copyright">&copy; 2021. Николай Сальников</p>
     </footer>
 </body>
 

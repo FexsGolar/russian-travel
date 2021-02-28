@@ -4,8 +4,9 @@
     line-height: 22px;
     color: white;
     transition: .5s;
+    align-self: start;
 }
 
 .place__link:hover {
-    opacity: 0.3;
+    opacity: 0.8;
 }

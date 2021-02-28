@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+.place__text:nth-child(2n) {
+    margin-top: 26px;
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .place__text:nth-child(2n) {
         margin-top: 32px;

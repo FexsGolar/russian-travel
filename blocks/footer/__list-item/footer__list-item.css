@@ -1,0 +1,17 @@
+.footer__list-item {
+    margin-top: 0;
+    margin-right: 18px;
+}
+
+.footer__list-item:last-of-type {
+    margin-right: 0;
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .footer__list-item {
+        margin-top: 32px;
+    }
+    .footer__list-item:last-of-type {
+        padding-top: 0;
+    }
+}

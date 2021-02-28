@@ -1,26 +1,26 @@
 .intro {
-    width: calc(100% - 200px);
+    max-width: 984px;
     margin: 0 auto;
     padding-top: 92px;
 }
 
 @media screen and (min-width:1024px) and (max-width:1279px) {
     .intro {
-        position: relative;
-        right: 52px;
+        padding: 92px 48px 0;
     }
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
     .intro {
-        margin-left: 16px;
+        margin-left: 24px;
         padding-top: 88px;
+        max-width: 762px;
     }
 }
 
 @media screen and (min-width:320px) and (max-width:767px) {
     .intro {
-        width: calc(100% - 32px);
+        max-width: 288px;
         margin-left: 16px;
         padding-top: 64px;
     }
